@@ -8,9 +8,10 @@
 </head>
 <body>
     <h1>Cadastro de pessoas utilizando django</h1>
-    <form action="cadastro.py">
-        <label for="idtext">Nome:</label>
-        <input type="text" name="text" id="idtext">
-    </form>
+    <ul>
+        <li>
+            <a href="{% url 'pessoa.index'%}">Pessoa</a>
+        </li>
+    </ul>
 </body>
 </html>
